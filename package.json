@@ -4,10 +4,10 @@
   "types": "dist/src/index.d.ts",
   "version": "0.0.1",
   "license": "MIT",
-  "homepage": "https://github.com/Hydrophobefireman/kit#readme",
+  "homepage": "https://github.com/Hydrophobefireman/kit-icons#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hydrophobefireman/kit.git"
+    "url": "git+https://github.com/Hydrophobefireman/kit-icons.git"
   },
   "main": "dist/src/index.js",
   "module": "dist/src/index.js",
