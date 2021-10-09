@@ -1,6 +1,6 @@
 {
   "enableCatom": true,
-  "inlineCSS": false,
+  "inlineCSS": true,
   "preferBase64Images": true,
   "outputDir": "build",
   "staticDir": "build_static",
