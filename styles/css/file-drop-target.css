@@ -1,0 +1,11 @@
+.kit-file-drop-target {
+  border: 2px dashed #1d1d1d;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: var(--kit-transition);
+}
+
+.kit-file-drop-target:hover,
+.kit-file-drop-target-accepting {
+  box-shadow: var(--kit-shadow);
+}

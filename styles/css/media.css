@@ -1,0 +1,14 @@
+@media screen and (min-width: 601px) {
+  .kit-show-on-mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .kit-center-on-mobile {
+    text-align: center;
+  }
+  .kit-hide-on-mobile {
+    display: none !important;
+  }
+}

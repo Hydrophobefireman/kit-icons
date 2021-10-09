@@ -1,0 +1,51 @@
+.kit-fade-in {
+  animation: soft-fade-in 0.3s ease;
+  animation-fill-mode: forwards;
+}
+
+.kit-move-up {
+  animation: soft-move-up 0.3s ease;
+  animation-fill-mode: none;
+}
+@keyframes soft-move-up {
+  0% {
+    transform: translateY(50px);
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes soft-fade-in {
+  0% {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.kit-card-shadow {
+  box-shadow: var(--kit-shadow);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--kit-scroll-thumb);
+  border-radius: 5px;
+  z-index: var(--kit-z-index-2);
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: var(--kit-background);
+}
+
+a {
+  color: var(--kit-link-color, #0000ee);
+}
+
+a:visited {
+  color: var(--kit-link-color-visited, #551a8b);
+}

@@ -1,0 +1,3 @@
+.kit-transition-root {
+  transition: var(--kit-transition);
+}

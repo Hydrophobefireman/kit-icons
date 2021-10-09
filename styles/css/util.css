@@ -1,0 +1,104 @@
+.kit-mask {
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(48, 48, 48, 0.8);
+  position: fixed;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: var(--kit-z-index-100);
+}
+
+[kit-disabled],
+.kit-no-select,
+.kit-no-events {
+  user-select: none !important;
+}
+[kit-disabled],
+.kit-no-events {
+  pointer-events: none !important;
+}
+[kit-disabled] {
+  opacity: 0.8;
+  --kit-foreground: var(--kit-shade-6);
+  --kit-shade-8: var(--kit-shade-5);
+  --kit-shade-7: var(--kit-shade-5);
+  --kit-shade-6: var(--kit-shade-4);
+  --kit-shade-5: var(--kit-shade-4);
+  --kit-shade-4: var(--kit-shade-3);
+  --kit-link-color: var(--kit-foreground);
+  --kit-success-lightest: var(--kit-shade-3);
+  --kit-success-light: var(--kit-shade-3);
+  --kit-success: var(--kit-foreground);
+  --kit-success-dark: var(--kit-foreground);
+  --kit-error-lightest: var(--kit-shade-3);
+  --kit-error-light: var(--kit-shade-3);
+  --kit-error: var(--kit-foreground);
+  --kit-error-dark: var(--kit-foreground);
+  --kit-warning-lightest: var(--kit-shade-3);
+  --kit-warning-light: var(--kit-shade-3);
+  --kit-warning: var(--kit-foreground);
+  --kit-warning-dark: var(--kit-foreground);
+  --kit-cyan-lightest: var(--kit-shade-3);
+  --kit-cyan-light: var(--kit-shade-3);
+  --kit-cyan: var(--kit-foreground);
+  --kit-cyan-dark: var(--kit-foreground);
+  --kit-violet-lightest: var(--kit-shade-3);
+  --kit-violet-light: var(--kit-shade-3);
+  --kit-violet: var(--kit-foreground);
+  --kit-violet-dark: var(--kit-foreground);
+  --kit-secondary: var(--kit-foreground);
+  --kit-code: var(--kit-foreground);
+}
+[kit-disabled] img,
+[kit-disabled] svg {
+  filter: grayscale(1);
+}
+::selection {
+  background-color: var(--kit-selection);
+  color: var(--kit-foreground);
+}
+
+.kit-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.kit-skeleton-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  z-index: var(--kit-z-index-2);
+  background: linear-gradient(
+    270deg,
+    var(--kit-shade-1),
+    var(--kit-shade-2),
+    var(--kit-shade-2),
+    var(--kit-shade-1)
+  );
+  animation: kit-skeleton-animation 2.8s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+.kit-inline-ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

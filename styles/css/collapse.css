@@ -1,0 +1,4 @@
+.kit-collapse {
+  transition: var(--kit-transition);
+  overflow: hidden;
+}

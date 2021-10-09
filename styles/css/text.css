@@ -1,0 +1,20 @@
+.kit-bold {
+  font-weight: bold;
+}
+
+.kit-underlined {
+  text-decoration: underline;
+}
+
+.kit-italic {
+  font-style: italic;
+}
+.kit-lowercase {
+  text-transform: lowercase;
+}
+.kit-capitalise {
+  text-transform: capitalize;
+}
+.kit-uppercase {
+  text-transform: uppercase;
+}

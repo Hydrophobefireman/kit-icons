@@ -1,0 +1,37 @@
+{
+  "name": "@hydrophobefireman/kit-icons",
+  "description": "",
+  "types": "dist/src/index.d.ts",
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "https://github.com/Hydrophobefireman/kit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hydrophobefireman/kit.git"
+  },
+  "main": "dist/src/index.js",
+  "module": "dist/src/index.js",
+  "scripts": {
+    "prebuild": "node scripts/clean.js",
+    "prepublishOnly": "npm run build &&  node scripts/prepublishOnly.js",
+    "postpublish": "node scripts/postpublish.js",
+    "postbuild": "node scripts/postbuild.js",
+    "create-package": "node scripts/create-package.js",
+    "build": "tsc"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "@hydrophobefireman/ui-lib": "^1.11.3"
+  },
+  "dependencies": {
+    "csstype": "^3.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "typescript": "^4.4.3"
+  },
+  "kitBase": {
+    "exports": {}
+  },
+  "kitPackages": []
+}
