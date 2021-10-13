@@ -1,6 +1,7 @@
 import { forwardRef, h } from "@hydrophobefireman/ui-lib";
 
 import * as _util from "./util";
+
 export const SpinnerIcon = forwardRef(function SpinnerIcon(
   {
     size,
@@ -11,7 +12,7 @@ export const SpinnerIcon = forwardRef(function SpinnerIcon(
   },
   ref
 ) {
-  size = size ? _util.toPx(size) : "2rem";
+  size = size ? _util.toPx(size) : "32px";
   return h(
     "svg",
     {
