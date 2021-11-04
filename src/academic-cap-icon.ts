@@ -1,15 +1,15 @@
-import { forwardRef, h } from "@hydrophobefireman/ui-lib";
+import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 
-import { IconProps } from "./types";
-import  * as _util from "./util";
+import {IconProps} from "./types";
+import * as _util from "./util";
 
 export const AcademicCapIcon = forwardRef(function AcademicCapIcon(
   $props: IconProps,
   ref
 ) {
-  const { size, color, ...rest } = $props;
+  const {size, color, children: _, ...rest} = $props;
   const _size = size ? _util.toPx(size) : "24px";
-  const props = _util.extend(rest, { height: _size, width: _size });
+  const props = _util.extend(rest, {height: _size, width: _size});
   return h(
     "svg",
     _util.extend(

@@ -1,4 +1,4 @@
-import { forwardRef, h } from "@hydrophobefireman/ui-lib";
+import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 
 import * as _util from "./util";
 

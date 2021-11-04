@@ -1,15 +1,15 @@
-import { forwardRef, h } from "@hydrophobefireman/ui-lib";
+import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 
-import { IconProps } from "./types";
-import  * as _util from "./util";
+import {IconProps} from "./types";
+import * as _util from "./util";
 
 export const PaperClipIcon = forwardRef(function PaperClipIcon(
   $props: IconProps,
   ref
 ) {
-  const { size, color, children, ...rest } = $props;
+  const {size, color, children, ...rest} = $props;
   const _size = size ? _util.toPx(size) : "24px";
-  const props = _util.extend(rest, { height: _size, width: _size });
+  const props = _util.extend(rest, {height: _size, width: _size});
   return h(
     "svg",
     _util.extend(
@@ -17,7 +17,7 @@ export const PaperClipIcon = forwardRef(function PaperClipIcon(
         fill: "none",
         ref: ref as any,
         viewBox: "0 0 24 24",
- 
+
         stroke: color || "var(--kit-theme-fg)",
       },
       props

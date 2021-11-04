@@ -1,12 +1,12 @@
-import { forwardRef, h } from "@hydrophobefireman/ui-lib";
+import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 
-import { IconProps } from "./types";
-import  * as _util from "./util";
+import {IconProps} from "./types";
+import * as _util from "./util";
 
 export const CogIcon = forwardRef(function CogIcon($props: IconProps, ref) {
-  const { size, color, ...rest } = $props;
+  const {size, color, children: _, ...rest} = $props;
   const _size = size ? _util.toPx(size) : "24px";
-  const props = _util.extend(rest, { height: _size, width: _size });
+  const props = _util.extend(rest, {height: _size, width: _size});
   return h(
     "svg",
     _util.extend(
@@ -14,7 +14,7 @@ export const CogIcon = forwardRef(function CogIcon($props: IconProps, ref) {
         fill: "none",
         ref: ref as any,
         viewBox: "0 0 24 24",
- 
+
         stroke: color || "var(--kit-theme-fg)",
       },
       props
