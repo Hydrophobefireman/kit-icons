@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const ChartPieIcon = forwardRef(function ChartPieIcon(
+export const ChartPieIcon = forwardRef<IconProps>(function ChartPieIcon(
   $props: IconProps,
   ref
 ) {

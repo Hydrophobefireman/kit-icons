@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const PresentationChartLineIcon = forwardRef(
+export const PresentationChartLineIcon = forwardRef<IconProps>(
   function PresentationChartLineIcon($props: IconProps, ref) {
     const {size, color, children: _, ...rest} = $props;
     const _size = size ? _util.toPx(size) : "24px";

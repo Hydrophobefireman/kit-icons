@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const ChevronDoubleLeftIcon = forwardRef(function ChevronDoubleLeftIcon(
+export const ChevronDoubleLeftIcon = forwardRef<IconProps>(function ChevronDoubleLeftIcon(
   $props: IconProps,
   ref
 ) {

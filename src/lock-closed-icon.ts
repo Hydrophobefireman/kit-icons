@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const LockClosedIcon = forwardRef(function LockClosedIcon(
+export const LockClosedIcon = forwardRef<IconProps>(function LockClosedIcon(
   $props: IconProps,
   ref
 ) {

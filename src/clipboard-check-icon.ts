@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const ClipboardCheckIcon = forwardRef(function ClipboardCheckIcon(
+export const ClipboardCheckIcon = forwardRef<IconProps>(function ClipboardCheckIcon(
   $props: IconProps,
   ref
 ) {

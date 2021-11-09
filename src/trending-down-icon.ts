@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const TrendingDownIcon = forwardRef(function TrendingDownIcon(
+export const TrendingDownIcon = forwardRef<IconProps>(function TrendingDownIcon(
   $props: IconProps,
   ref
 ) {

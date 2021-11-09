@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const MenuAlt1Icon = forwardRef(function MenuAlt1Icon(
+export const MenuAlt1Icon = forwardRef<IconProps>(function MenuAlt1Icon(
   $props: IconProps,
   ref
 ) {

@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const SwitchHorizontalIcon = forwardRef(function SwitchHorizontalIcon(
+export const SwitchHorizontalIcon = forwardRef<IconProps>(function SwitchHorizontalIcon(
   $props: IconProps,
   ref
 ) {

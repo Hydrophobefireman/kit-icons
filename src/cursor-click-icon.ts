@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const CursorClickIcon = forwardRef(function CursorClickIcon(
+export const CursorClickIcon = forwardRef<IconProps>(function CursorClickIcon(
   $props: IconProps,
   ref
 ) {

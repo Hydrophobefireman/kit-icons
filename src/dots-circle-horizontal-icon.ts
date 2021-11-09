@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const DotsCircleHorizontalIcon = forwardRef(
+export const DotsCircleHorizontalIcon = forwardRef<IconProps>(
   function DotsCircleHorizontalIcon($props: IconProps, ref) {
     const {size, color, children: _, ...rest} = $props;
     const _size = size ? _util.toPx(size) : "24px";

@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const QrcodeIcon = forwardRef(function QrcodeIcon(
+export const QrcodeIcon = forwardRef<IconProps>(function QrcodeIcon(
   $props: IconProps,
   ref
 ) {

@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const CurrencyDollarIcon = forwardRef(function CurrencyDollarIcon(
+export const CurrencyDollarIcon = forwardRef<IconProps>(function CurrencyDollarIcon(
   $props: IconProps,
   ref
 ) {

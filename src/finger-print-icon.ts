@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const FingerPrintIcon = forwardRef(function FingerPrintIcon(
+export const FingerPrintIcon = forwardRef<IconProps>(function FingerPrintIcon(
   $props: IconProps,
   ref
 ) {

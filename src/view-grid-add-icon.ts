@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const ViewGridAddIcon = forwardRef(function ViewGridAddIcon(
+export const ViewGridAddIcon = forwardRef<IconProps>(function ViewGridAddIcon(
   $props: IconProps,
   ref
 ) {

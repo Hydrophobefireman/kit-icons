@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const ZoomInIcon = forwardRef(function ZoomInIcon(
+export const ZoomInIcon = forwardRef<IconProps>(function ZoomInIcon(
   $props: IconProps,
   ref
 ) {

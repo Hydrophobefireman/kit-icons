@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const VideoCameraIcon = forwardRef(function VideoCameraIcon(
+export const VideoCameraIcon = forwardRef<IconProps>(function VideoCameraIcon(
   $props: IconProps,
   ref
 ) {

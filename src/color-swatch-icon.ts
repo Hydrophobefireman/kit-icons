@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const ColorSwatchIcon = forwardRef(function ColorSwatchIcon(
+export const ColorSwatchIcon = forwardRef<IconProps>(function ColorSwatchIcon(
   $props: IconProps,
   ref
 ) {

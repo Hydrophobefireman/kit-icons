@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const LoginIcon = forwardRef(function LoginIcon($props: IconProps, ref) {
+export const LoginIcon = forwardRef<IconProps>(function LoginIcon($props: IconProps, ref) {
   const {size, color, children: _, ...rest} = $props;
   const _size = size ? _util.toPx(size) : "24px";
   const props = _util.extend(rest, {height: _size, width: _size});

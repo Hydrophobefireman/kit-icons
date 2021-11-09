@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const SearchCircleIcon = forwardRef(function SearchCircleIcon(
+export const SearchCircleIcon = forwardRef<IconProps>(function SearchCircleIcon(
   $props: IconProps,
   ref
 ) {

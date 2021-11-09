@@ -3,7 +3,7 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 import {IconProps} from "./types";
 import * as _util from "./util";
 
-export const SortAscendingIcon = forwardRef(function SortAscendingIcon(
+export const SortAscendingIcon = forwardRef<IconProps>(function SortAscendingIcon(
   $props: IconProps,
   ref
 ) {

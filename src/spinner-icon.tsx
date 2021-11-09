@@ -2,14 +2,12 @@ import {forwardRef, h} from "@hydrophobefireman/ui-lib";
 
 import * as _util from "./util";
 
-export const SpinnerIcon = forwardRef(function SpinnerIcon(
-  {
-    size,
-    color,
-  }: {
-    size?: number | string;
-    color?: string;
-  },
+interface SpinnerProps {
+  size?: number | string;
+  color?: string;
+}
+export const SpinnerIcon = forwardRef<SpinnerProps>(function SpinnerIcon(
+  {size, color}: SpinnerProps,
   ref
 ) {
   size = size ? _util.toPx(size) : "32px";
