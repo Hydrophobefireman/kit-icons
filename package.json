@@ -2,7 +2,7 @@
    "name": "@hydrophobefireman/kit-icons",
    "description": "",
    "types": "dist/src/index.d.ts",
-   "version": "0.0.7",
+   "version": "0.0.8",
    "license": "MIT",
    "homepage": "https://github.com/Hydrophobefireman/kit-icons#readme",
    "repository": {
@@ -21,7 +21,7 @@
    },
    "sideEffects": false,
    "peerDependencies": {
-      "@hydrophobefireman/ui-lib": "^1.11.3"
+      "@hydrophobefireman/ui-lib": "latest"
    },
    "dependencies": {
       "csstype": "^3.0.9"
